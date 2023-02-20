@@ -37838,6 +37838,8 @@ with pkgs;
 
   mongoc = callPackage ../development/libraries/mongoc { };
 
+  mongo-cxx-driver = callPackage ../development/libraries/mongo-cxx-driver { };
+
   mongoose = callPackage ../development/libraries/science/math/mongoose {};
 
   morph = callPackage ../tools/package-management/morph { };
